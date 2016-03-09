@@ -1,3 +1,6 @@
+## Code Review
+* https://github.com/thoughtbot/guides/tree/master/code-review
+
 ## Rails
 ### rails-style-guide
 * https://github.com/bbatsov/rails-style-guide
@@ -6,7 +9,7 @@
 ## Ruby
 ### ruby-style-guide 
 * https://github.com/bbatsov/ruby-style-guide
-* https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md
+* https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md (日本語版)
 
 ## SCSS
 ### scss-lint

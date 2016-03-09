@@ -1,6 +1,13 @@
 ## Code Review
 * https://github.com/thoughtbot/guides/tree/master/code-review
 
+## JS
+### eslint
+* https://github.com/eslint/eslint/tree/master/docs/rules
+
+### coffeescript-style-guide(今後削除予定）
+* https://github.com/polarmobile/coffeescript-style-guide
+
 ## Rails
 ### rails-style-guide
 * https://github.com/bbatsov/rails-style-guide

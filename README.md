@@ -77,6 +77,8 @@ experience, refactors the existing code). Then:
 
 
 # CSS
+BEMは将来性が乏しそうなので非採用。
+
 ## scss-lint
 https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md
 * BemDepth: disabled

@@ -85,7 +85,10 @@ https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md
 * HexLength: short
 * HexNotation: lowercase
 * LeadingZero: include_zero
+* NestingDepth: max_depth: 4
+* SelectorDepth: max_depth: 2
 * StringQuotes: double_quotes
+
 
 ## SMACSS
 * https://smacss.com/

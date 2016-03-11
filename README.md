@@ -76,6 +76,19 @@ experience, refactors the existing code). Then:
 * Sign off on the pull request with a :thumbsup: or "Ready to merge" comment.
 
 
+# CSS
+## scss-lint
+https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md
+* BemDepth: disabled
+* HexLength: short
+* HexNotation: lowercase
+* LeadingZero: include_zero
+* StringQuotes: double_quotes
+
+## SMACSS
+* https://smacss.com/
+* https://smacss.com/ja (日本語版)
+
 # JS
 ## eslint
 * https://github.com/eslint/eslint/tree/master/docs/rules
@@ -161,11 +174,3 @@ experience, refactors the existing code). Then:
 
   The string literals in this guide are aligned with the first style.
 
-# SCSS
-## scss-lint
-https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md
-* BEMは非採用
-* HexLength: short
-* HexNotation: lowercase
-* LeadingZero: include_zero
-* StringQuotes: double_quotes

@@ -163,4 +163,9 @@ experience, refactors the existing code). Then:
 
 # SCSS
 ## scss-lint
-* https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md
+https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md
+* BEMは非採用
+* HexLength: short
+* HexNotation: lowercase
+* LeadingZero: include_zero
+* StringQuotes: double_quotes

@@ -35,6 +35,20 @@ https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md
 * https://smacss.com/
 * https://smacss.com/ja (日本語版)
 
+At the very core of SMACSS is categorization. By categorizing CSS rules, we begin to see patterns and can define better practices around each of these patterns.
+
+There are five types of categories:
+
+1. Base
+2. Layout
+3. Module
+4. State
+5. Theme
+
+We often find ourselves mixing styles across each of these categories. If we are more aware of what we are trying to style, we can avoid the complexity that comes from intertwining these rules.
+
+Each category has certain guidelines that apply to it. This somewhat succinct separation allows us to ask ourselves questions during the development process. How are we going to code things and why are we going to code them that way?
+
 # JS
 ## eslint
 * https://github.com/eslint/eslint/tree/master/docs/rules

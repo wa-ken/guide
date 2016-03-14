@@ -53,9 +53,24 @@ Each category has certain guidelines that apply to it. This somewhat succinct se
 ## eslint
 https://github.com/eslint/eslint/tree/master/docs/rules
 * disallow semicolons
+```js
+var name = "ESLint"
+var website = "eslint.org";
+```
 * enforce double quotes
 * indent: 2
 * require let or const instead of var
+
+The following patterns are considered problems:
+```js
+var x = "y";
+var CONFIG = {};
+```
+The following patterns are not considered problems:
+```js
+let x = "y";
+const CONFIG = {};
+```
 
 ## coffeescript-style-guide(今後削除予定）
 https://github.com/polarmobile/coffeescript-style-guide

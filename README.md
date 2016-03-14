@@ -1,3 +1,5 @@
+https://github.com/thoughtbot/guides
+
 High level guidelines:
 
 * Be consistent.
@@ -11,6 +13,9 @@ A note on the language:
 * "Don't" means there's never a good reason.
 * "Prefer" indicates a better option and its alternative to watch out for.
 * "Use" is a positive instruction.
+
+# Code Review
+[Code Review](/code_review)
 
 # CSS
 BEMは将来性が乏しそうなので非採用。

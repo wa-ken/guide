@@ -52,14 +52,17 @@ Each category has certain guidelines that apply to it. This somewhat succinct se
 # JS
 ## eslint
 https://github.com/eslint/eslint/tree/master/docs/rules
-* disallow semicolons
+* disallow semicolons 行末のセミコロンは使用しない
 ```js
 var name = "ESLint"
 var website = "eslint.org";
 ```
-* enforce double quotes
-* indent: 2
-* require let or const instead of var
+* enforce double quotes ダブルクォートを用いる
+```js
+var double = "double";
+```
+* indent: 2 インデントはスペース2つ
+* require let or const instead of var varの代わりにletまたはconstを用いる
 
 The following patterns are considered problems:
 ```js

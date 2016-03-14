@@ -51,10 +51,14 @@ Each category has certain guidelines that apply to it. This somewhat succinct se
 
 # JS
 ## eslint
-* https://github.com/eslint/eslint/tree/master/docs/rules
+https://github.com/eslint/eslint/tree/master/docs/rules
+* disallow semicolons
+* enforce double quotes
+* indent: 2
+* require let or const instead of var
 
 ## coffeescript-style-guide(今後削除予定）
-* https://github.com/polarmobile/coffeescript-style-guide
+https://github.com/polarmobile/coffeescript-style-guide
 
 # Rails
 ## rails-style-guide

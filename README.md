@@ -76,19 +76,10 @@ Each category has certain guidelines that apply to it. This somewhat succinct se
   * **(Option A)** When continuing a chained method invocation on
     another line keep the `.` on the second line.
 
-    ```Ruby
-    # bad - need to consult first line to understand second line
-    one.two.three.
-      four
-
-    # good - it's immediately clear what's going on the second line
-    one.two.three
-      .four
-    ```
 
   * **(Option B)** When continuing a chained method invocation on another line,
     include the `.` on the first line to indicate that the
-    expression continues.
+    expression continues.**(使用中)**
 
     ```Ruby
     # bad - need to read ahead to the second line to know that the chain continues
@@ -111,7 +102,7 @@ Each category has certain guidelines that apply to it. This somewhat succinct se
 
   * **(Option A)** Prefer single-quoted strings when you don't need
     string interpolation or special symbols such as `\t`, `\n`, `'`,
-    etc.
+    etc.**(使用中)**
 
     ```Ruby
     # bad
@@ -123,14 +114,6 @@ Each category has certain guidelines that apply to it. This somewhat succinct se
 
   * **(Option B)** Prefer double-quotes unless your string literal
     contains `"` or escape characters you want to suppress.
-
-    ```Ruby
-    # bad
-    name = 'Bozhidar'
-
-    # good
-    name = "Bozhidar"
-    ```
 
   The string literals in this guide are aligned with the first style.
 

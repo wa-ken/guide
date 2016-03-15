@@ -15,7 +15,7 @@ A note on the language:
 * "Use" is a positive instruction.
 
 # Code Review
-[Code Review](/code_review)
+<https://github.com/thoughtbot/guides/tree/master/code-review>
 
 # CSS
 BEMは将来性が乏しそうなので非採用。

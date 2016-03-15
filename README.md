@@ -86,6 +86,10 @@ We often find ourselves mixing styles across each of these categories. If we are
 
 Each category has certain guidelines that apply to it. This somewhat succinct separation allows us to ask ourselves questions during the development process. How are we going to code things and why are we going to code them that way?
 
+## Module
+<http://demo.patternlab.io/>
+各プロジェクトで、デザインパーツを集めたページを作れるといいのではないでしょうか。
+
 # JS
 ## eslint
 https://github.com/eslint/eslint/tree/master/docs/rules

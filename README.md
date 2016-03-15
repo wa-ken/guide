@@ -1,3 +1,5 @@
+※ あくまでガイドラインです。これに則ることを強制するものではありません。
+
 https://github.com/thoughtbot/guides
 
 High level guidelines:

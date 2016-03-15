@@ -16,6 +16,7 @@ A note on the language:
 
 # Code Review
 <https://github.com/thoughtbot/guides/tree/master/code-review>
+* レビュー後のコメントを最初にする人は、リアクションではなくコメントを使いましょう（通知が送られないため）
 
 # CSS
 BEMは将来性が乏しそうなので非採用。

@@ -23,12 +23,46 @@ BEMは将来性が乏しそうなので非採用。
 ## scss-lint
 https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md
 * BemDepth: disabled
+
+BEMは非採用なので、無視します。
+
 * HexLength: short
+
+**short**
+```scss
+color: #f2e;
+```
+
+**long**
+```scss
+color: #ff22ee;
+```
+
 * HexNotation: lowercase
+
+Checks if hexadecimal colors are written in lowercase. You can specify which case with the style option.  
+hexの指定は小文字で記述してください。
+
 * LeadingZero: include_zero
+
+**unnecessary leading zero**
+```scss
+margin: 0.5em;
+```
+
+**no leading zero**
+```scss
+margin: .5em;
+``` 
+
 * NestingDepth: max_depth: 4
 * SelectorDepth: max_depth: 2
 * StringQuotes: double_quotes
+
+**double quotes**
+```scss
+content: "hello";
+```
 
 
 ## SMACSS

@@ -100,20 +100,20 @@ var website = "eslint.org";
 ```
 * enforce double quotes ダブルクォートを用いる
 ```js
-var double = "double";
+var double = "double"
 ```
 * indent: 2 インデントはスペース2つ
 * require let or const instead of var varの代わりにletまたはconstを用いる
 
 The following patterns are considered problems:
 ```js
-var x = "y";
-var CONFIG = {};
+var x = "y"
+var CONFIG = {}
 ```
 The following patterns are not considered problems:
 ```js
-let x = "y";
-const CONFIG = {};
+let x = "y"
+const CONFIG = {}
 ```
 
 ## coffeescript-style-guide(今後削除予定）

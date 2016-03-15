@@ -18,6 +18,7 @@ A note on the language:
 <https://github.com/thoughtbot/guides/tree/master/code-review>
 * レビュー後のコメントを最初にする人は、リアクションではなくコメントを使いましょう（通知が送られないため）
 * CSSやテキストのみの改修の場合、CIをスキップする判断もOK
+* 顔を合わせてのディスカッションが必要な場合は、週ごとの振り返り会（現在は木曜日開催）で行いましょう。
 
 # CSS
 BEMは将来性が乏しそうなので非採用。

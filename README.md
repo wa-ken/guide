@@ -132,7 +132,7 @@ https://github.com/polarmobile/coffeescript-style-guide
 * https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md (日本語版)
 
 * <a name="english-comments"></a>
-  Write comments in English **or Japanese**.
+  Write comments in English **or Japanese**. Please use english basically, and use Japanese when it's clear that the explanation will be easier to understand.
 <sup>[[link](#english-comments)]</sup>
 
 ### 複数のスタイル提案

@@ -45,7 +45,7 @@ color: #ff22ee;
 
 * HexNotation: lowercase
 
-Checks if hexadecimal colors are written in lowercase. You can specify which case with the style option.  
+Checks if hexadecimal colors are written in lowercase. You can specify which case with the style option.
 hexの指定は小文字で記述してください。
 
 * LeadingZero: include_zero
@@ -58,7 +58,7 @@ margin: 0.5em;
 **no leading zero**
 ```scss
 margin: .5em;
-``` 
+```
 
 * NestingDepth: max_depth: 4
 * SelectorDepth: max_depth: 2
@@ -121,13 +121,38 @@ const CONFIG = {}
 ## coffeescript-style-guide(今後削除予定）
 https://github.com/polarmobile/coffeescript-style-guide
 
+## React
+
+### 拡張子は `*.js`
+
+:no_good: `comment.jsx`
+
+:ok_woman: `comment.js`
+
+### 複数形は曖昧なので使わない
+
+:no_good: `comments.js` `class Comments`
+
+:ok_woman: `comment_list.js` `class CommentList`
+
+### コンテナは `*Box`
+
+:no_good: `comment_container.js` `class CommentContainer`
+
+:ok_woman: `comment_box.js` `class CommentBox`
+
+### 参考
+
+- https://facebook.github.io/react/docs/tutorial.html
+- https://github.com/interfirm/hapieco/pull/490
+
 # Rails
 ## rails-style-guide
 * https://github.com/bbatsov/rails-style-guide
 * https://github.com/satour/rails-style-guide/blob/master/README-jaJA.md (日本語版)
 
 # Ruby
-## ruby-style-guide 
+## ruby-style-guide
 * https://github.com/bbatsov/ruby-style-guide
 * https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md (日本語版)
 
@@ -185,4 +210,3 @@ https://github.com/polarmobile/coffeescript-style-guide
     contains `"` or escape characters you want to suppress.
 
   The string literals in this guide are aligned with the first style.
-

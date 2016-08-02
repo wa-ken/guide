@@ -9,7 +9,9 @@
 
 # モジュール
 
-## 基本のh3
+## 全体
+
+### 基本のh3
 
 ```
 border-bottom: solid 1px #48c133;
@@ -20,3 +22,10 @@ margin-bottom: 10px;
 padding-bottom: 10px;
 ```
 
+## companies/:id
+
+### 端末一覧のh3
+
+```
+color: #fff;
+```

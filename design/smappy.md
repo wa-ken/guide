@@ -15,6 +15,7 @@
 border-bottom: solid 1px #48c133;
 color: #0e6eb8;
 font-size: 20px;
+font-weight: 600;
 margin-bottom: 10px;
 padding-bottom: 10px;
 ```
